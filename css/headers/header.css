@@ -1,0 +1,145 @@
+.contenedor-h {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1rem 0;
+    max-width: 120rem;
+    margin: 0 auto;
+}
+.contenedor-header {
+	background-color: var(--background-color);
+}
+.contenedor-logo {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+}
+.contenedor-logo img  {
+  max-width: 200px;
+}
+/*buscador */
+.buscador {
+	display: flex;
+	align-items: center;
+	gap: 2rem;
+}
+.buscador-form {
+	position: relative;
+	display: flex;
+	align-items: center;
+	border: 2px solid #fff;
+	border-radius: 2rem;
+	background-color: #fff;
+	height: 4.4rem;
+	overflow: hidden;
+}
+
+.buscador-form input {
+	outline: none;
+	font-family: inherit;
+	border: none;
+	width: 25rem;
+	font-size: 1.4rem;
+	padding: 0 2rem;
+	color: #777;
+	cursor: pointer;
+}
+
+.buscador-form input::-webkit-search-cancel-button {
+	appearance: none;
+}
+
+.buscador-form .btn-buscador {
+	border: none;
+	background-color: var(--primary-color);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	padding: 1rem;
+}
+.btn-buscador i {
+	font-size: 2rem;
+	color: #fff;
+}
+.containedor-usario {
+	display: flex;
+	gap: 1rem;
+	cursor: pointer;
+}
+
+.btn-login {
+	/* border: 2px solid #fff;
+	background-color: var(--primary-color);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	padding: 1rem 3rem 1rem 3rem;
+	font-size: 1.5rem;
+	color: #fff; */
+	border: none;
+	background-color: var(--primary-color);
+	color: #fff;
+	text-transform: uppercase;
+	padding: 1rem 3rem;
+	border-radius: 2rem;
+	font-size: 1.4rem;
+	font-family: inherit;
+	cursor: pointer;
+	font-weight: 600;
+	text-decoration: none;
+}
+.btn-login:hover {
+	background-color: var(--background-color);
+	color: var(--primary-color);
+}
+.containedor-usario .fa-basket-shopping {
+	font-size: 3rem;
+	color: var(--primary-color);
+	padding-left: 1rem;
+}
+
+.content-shopping-cart {
+	display: flex;
+	flex-direction: column;
+}
+.container-navbar {
+	background-color: var(--primary-color);
+}
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	/*padding: 1rem 0;*/
+	padding: 0.3rem 0;
+}
+
+.bienvenido	{
+	font-size: 1.3rem;
+	font-weight: bold;
+}
+.nombreUsuario	{
+	font-size: 1.3rem;
+	color: var(--primary-color);
+	font-weight: bold;
+}
+@media (max-width: 720px) {
+	.buscador {
+		display: none;
+	}
+	.btn-login {
+		border: none;
+		background-color: var(--primary-color);
+		color: #fff;
+		text-transform: uppercase;
+		padding: 1rem 2rem;
+		border-radius: 2rem;
+		font-size: 0.9rem;
+		font-family: inherit;
+		cursor: pointer;
+		font-weight: 500;
+		text-decoration: none;
+	}
+}

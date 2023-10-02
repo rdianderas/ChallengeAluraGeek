@@ -1,0 +1,92 @@
+{
+  "producto": [
+    {
+      "name": "250G Café de Especialidad La Gabriela, Colombia en Grano o Molido",
+      "imageUrl": "https://cafedlara.cl/cdn/shop/products/la_gabriela_165f9bc5-fd4a-4db2-8a4e-7b538fd0c22b_800x.jpg?v=1635881481",
+      "precio": "9990",
+      "precioSinDescuento": "11990",
+      "id": 1,
+      "alt": "250G Café rico",
+      "categoria": "Cafe-Colombia",
+      "description": "Café con fragancia a chocolate y caña de azúcar proveniente de Antioquía, Ciudad Bolívar, Colombia, para ser tostado y envasado en Chile en empaques 100% compostables. La Gabriela es la finca más antigua de la familia Vásquez, allí nació y creció Gabriel Jaime y sus hermanos, lugar dónde aprendieron a cultivar y querer el café gracias a su padre.",
+      "destacado": "Destacados"
+    },
+    {
+      "name": "Pack D'Lara 80 Cápsulas para Nespresso Café de Especialidad - Intermedio",
+      "imageUrl": "https://cafedlara.cl/cdn/shop/files/PACK80CAPSULASCHILE_2_2000x.png?v=1686066664",
+      "precio": "27192",
+      "precioSinDescuento": "35220",
+      "id": 2,
+      "alt": "Pack D'Lara 80 Cápsulas",
+      "categoria": "Cafe-Peru",
+      "description": "Con este pack tendrás 80 cápsulas compostables para Nespresso:<br>30 Blend - Colombia<br>30 Chacra D'Dago - Perú<br>20 Pacamara - El Salvador",
+      "destacado": "MasRecientes"
+    },
+    {
+      "name": "Máquina Molinillo Granos BMG081",
+      "imageUrl": "https://www.kitchencenter.cl/cdn/shop/files/Maquina-Molinillo-Granos-BMG081-Blanik_700x.jpg?v=1695347804",
+      "precio": "39990",
+      "precioSinDescuento": "49990",
+      "id": 3,
+      "alt": "Máquina Molinillo Granos",
+      "categoria": "Cafeteras",
+      "description": "Rápida molienda. Mejor calidad de la molienda gracias a su sistema de muelas. Puedes elegir el grosor de la molienda, desde extra fino a grueso. Selector de porciones a moler. Contenedor de granos enteros de 230 grs aprox.",
+      "destacado": "MasVendidos"
+    },
+    {
+      "name": "Cafetera PrimaLatte Touch BVSTEM6801",
+      "imageUrl": "https://www.kitchencenter.cl/cdn/shop/files/BVSTEM6801W-ATF-1B_a8d208ad-0188-4e22-ba78-e3a2c15e31b1_500x.jpg?v=1686025916",
+      "precio": "249990",
+      "precioSinDescuento": "279990",
+      "id": 4,
+      "alt": "Cafetera PrimaLatte Touch",
+      "categoria": "Cafeteras",
+      "description": "Si buscas una experiencia superior cuando tomas café en casa, nuestra Cafetera Oster® PrimaLatte™ Touch es para ti. Con ella puedes preparar fácilmente bebidas especializadas, espresso, cappuccino o latte. Puedes usar café ya molido o cápsulas.",
+      "destacado": "MasRecientes"
+    },
+    {
+      "name": "Prensa Francesa Cafetera Roma 600 ml",
+      "imageUrl": "https://www.kitchencenter.cl/cdn/shop/products/FTA3897_roma_KC_SKU760795-11767-compressed_700x.jpg?v=1690241223",
+      "precio": "16990",
+      "precioSinDescuento": "18990",
+      "id": 5,
+      "alt": "Prensa Francesa Cafetera Roma",
+      "categoria": "Cafeteras",
+      "description": "Disfruta de tu café molido con un método de extracción instantáneo con la prensa francesa de vidrio de borosilicato, con tapa, pomo y cuerpo en color celeste matte dando una decoración moderna y sofisticada a tus espacios, disfruta del aroma y sabor sutil del café, el sistema en prensa es diferente a los demás métodos de preparación de café, el agua y el café permanecen en contacto por mayor tiempo, lo que resulta en un rico aroma y delicioso sabor, un regalo con estilo y buen gusto para los amantes del café.",
+      "destacado": "MasVendidos"
+    },
+    {
+      "name": "Cafetera Espresso Full Auto Display Roja + Lechero",
+      "imageUrl": "https://www.kitchencenter.cl/cdn/shop/products/4_aea033d5-1402-49bb-a205-eee8bb5e67cb_700x.jpg?v=1695298894",
+      "precio": "399.990",
+      "precioSinDescuento": "529.990",
+      "alt": "cafetera expresso",
+      "categoria": "Cafe-Colombia",
+      "description": "Cafetera Krups Full Auto Display Roja disfruta de todo el sabor de un espresso en casa perfectamente equilibrados. Prepara deliciosos cafés y espressos en un abrir y cerrar de ojos gracias a una pantalla LCD intuitiva extragrande.",
+      "destacado": "Destacados",
+      "id": 6
+    },
+    {
+      "name": "Cafetera Espresso Vintage 00M13891",
+      "imageUrl": "https://www.kitchencenter.cl/cdn/shop/files/14686cafeteraddp-9_1_700x.jpg?v=1694628300",
+      "precio": "115.490",
+      "precioSinDescuento": "164.990",
+      "alt": "Cafetera Espresso Vintage",
+      "categoria": "Cafe-Colombia",
+      "description": "Vive un momento perfecto con la Cafetera Espresso Vintage de Ariete. Ideal para comenzar las mañanas como corresponde, cuenta con capacidad para 0.9 litros, 15 bares de presión y deposito maxi-cappucciono para que prepares una espuma perfecta para combinar con espresso italiano. Su look retro sin dudas le dará un gran look a tu cocina. Puedes elegir entre sus colores beige y verde",
+      "destacado": "Destacados",
+      "id": 7
+    },
+    {
+      "name": "Cafetera Italiana Granito 4 Tazas",
+      "imageUrl": "https://www.kitchencenter.cl/cdn/shop/products/BzWdJDOc4y_700x.jpg?v=1662139526",
+      "precio": "14.990",
+      "precioSinDescuento": "19.990",
+      "alt": "Cafetera Italiana",
+      "categoria": "Cafe-Colombia",
+      "description": "Nuestra Cafetera Italiana Simplit es perfecta para los amantes del café. En ella podrás lograr un café más intenso que lo que te entregan otras cafeteras. Su diseño negro de granito le dará el toque perfecto que le faltaba a tu cocina.",
+      "destacado": "Destacados",
+      "id": 8
+    }
+  ]
+}

@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CAFE LUNA</title>
+  <link rel="stylesheet" href="css/principal.css" />
+  <link rel="stylesheet" href="css/headers/header.css" />
+  <link rel="stylesheet" href="css/banner/banner.css" />
+  <link rel="stylesheet" href="css/productos/productos.css" />
+  <link rel="stylesheet" href="css/categorias/categoria.css" />
+  <link rel="stylesheet" href="css/footer/footer.css" />
+  <script
+			src="https://kit.fontawesome.com/81581fb069.js"
+			crossorigin="anonymous"
+		></script>
+    <script defer src="js/slider.js"></script>
+    <script defer src="js/pestanhas.js"></script>
+</head>
+<body>
+    <header>
+      <div class="contenedor-header">
+        <div class="contenedor-h">
+          <div class="contenedor-logo">
+            <a href="index.html"> 
+              <img src="imagenes/header/LogoCafeLuna.png"/> 
+            </a>
+          </div>
+          <div class="buscador">
+            <form class="buscador-form">
+              <input type="search" placeholder="Buscar..." />
+              <button class="btn-buscador">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+            </form>
+          </div>  
+          <div class="containedor-usario">
+            <a href="login.html" class="btn-login">
+               Login
+            </a>
+            <i class="fa-solid fa-basket-shopping"></i>
+						<div class="content-shopping-cart">
+							<span class="text">Carrito</span>
+							<span class="number">(0)</span>
+						</div>
+          </div> 
+        </div>
+      </div>
+      <div class="container-navbar">
+        <div class="navbar container">
+        </div>
+      </div>
+    </header>
+    <section class="banner">
+      <section id="container-slider">	
+        <a href="javascript: fntExecuteSlide('prev');" class="arrowPrev"><i class="fas fa-chevron-circle-left"></i></a>
+        <a href="javascript: fntExecuteSlide('next');" class="arrowNext"><i class="fas fa-chevron-circle-right"></i></a>
+        <ul class="listslider">
+          <li><a itlist="itList_0" href="#" class="item-select-slid"></a></li>
+          <li><a itlist="itList_1" href="#"></a></li>
+          <li><a itlist="itList_2" href="#"></a></li>
+          <li><a itlist="itList_3" href="#"></a></li>
+        </ul>
+        <ul id="slider">
+          <li class="actual-slid" style="background-color: none;z-index:0; opacity: 1;">
+            <div class="content_slider  banner1" >
+              <div class="content-banner">
+                <p>Café Delicioso</p>
+                <h2>100% Natural <br />Café Fresco</h2>
+                <a href="#">Comprar ahora</a>
+              </div> 
+            </div>
+          </li>
+          <!-- <li style="background-color:none;">
+            <div class="content_slider banner2" >
+              <div class="content-banner">
+                <p>Café Esquisito</p>
+                <h2>100% Natural <br />Café Fresco</h2>
+                <a href="#">Comprar ahora</a>
+              </div> 
+            </div>
+          </li>
+          <li style="background-color: none; ">
+            <div class="content_slider banner3" >
+              <div class="content-banner">
+                <p>Café maravilloso</p>
+                <h2>100% Natural <br />Café Fresco</h2>
+                <a href="#">Comprar ahora</a>
+              </div> 
+            </div>
+          </li>
+          <li style="background-color: none; ">
+            <div class="content_slider banner4" >
+              <div class="content-banner">
+                <p>Café maravilloso</p>
+                <h2>100% Natural <br />Café Fresco</h2>
+                <a href="#">Comprar ahora</a>
+              </div> 
+            </div>
+          </li> -->
+       </ul>
+     </section>
+		</section>
+    <main class="main-content">
+      <section class="contenedor mejores-productos">
+        <h1 class="titulo-seccion-1">Mejores Productos</h1>
+        <div class="contenedor-opciones">
+          <span class="tab active">Destacados</span>
+          <span class="tab ">Más recientes</span>
+          <span class="tab ">Mejores Vendidos</span>
+        </div>
+        <div class="content active">
+          <h2 class="titulo-seccion-2">Productos destacados</h2>
+          <div class="contenedor-productos">
+              <!-- Producto 1 -->
+              <div class="card-producto">
+                <div class="contenedor-imagen">
+                  <img src="imagenes/productos/producto-1.jpg" alt="Cafe Irish" />
+                  <span class="descuento">-13%</span>
+                  <div class="grupo-botones">
+                    <span>
+                      <i class="fa-regular fa-eye"></i>
+                    </span>
+                    <!-- <span>
+                      <i class="fa-regular fa-heart"></i>
+                    </span>
+                    <span>
+                      <i class="fa-solid fa-code-compare"></i>
+                    </span> -->
+                  </div>
+                </div>
+                <div class="contenedor-card-producto">
+                  <div class="estrellas">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+                  <h3>Cafe Irish</h3>
+                  <span class="agregar-producto">
+                    <i class="fa-solid fa-basket-shopping"></i>
+                  </span>
+                  <p class="precio">$4.60 <span>$5.30</span></p>
+                </div>
+              </div>
+               <!-- Producto 2 -->
+               <div class="card-producto">
+                <div class="contenedor-imagen">
+                  <img src="imagenes/productos/producto-2.jpg" alt="Cafe Irish" />
+                  <span class="descuento">-13%</span>
+                  <div class="grupo-botones">
+                    <span>
+                      <i class="fa-regular fa-eye"></i>
+                    </span>
+                    <!-- <span>
+                      <i class="fa-regular fa-heart"></i>
+                    </span>
+                    <span>
+                      <i class="fa-solid fa-code-compare"></i>
+                    </span> -->
+                  </div>
+                </div>
+                <div class="contenedor-card-producto">
+                  <div class="estrellas">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+                  <h3>Cafe Irish</h3>
+                  <span class="agregar-producto">
+                    <i class="fa-solid fa-basket-shopping"></i>
+                  </span>
+                  <p class="precio">$4.60 <span>$5.30</span></p>
+                </div>
+              </div>
+               <!-- Producto 3 -->
+               <div class="card-producto">
+                <div class="contenedor-imagen">
+                  <img src="imagenes/productos/producto-3.jpg" alt="Cafe Irish" />
+                  <span class="descuento">-13%</span>
+                  <div class="grupo-botones">
+                    <span>
+                      <i class="fa-regular fa-eye"></i>
+                    </span>
+                    <!-- <span>
+                      <i class="fa-regular fa-heart"></i>
+                    </span>
+                    <span>
+                      <i class="fa-solid fa-code-compare"></i>
+                    </span> -->
+                  </div>
+                </div>
+                <div class="contenedor-card-producto">
+                  <div class="estrellas">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+                  <h3>Cafe Irish</h3>
+                  <span class="agregar-producto">
+                    <i class="fa-solid fa-basket-shopping"></i>
+                  </span>
+                  <p class="precio">$4.60 <span>$5.30</span></p>
+                </div>
+              </div>
+               <!-- Producto 4 -->
+               <div class="card-producto">
+                <div class="contenedor-imagen">
+                  <img src="imagenes/productos/producto-4.jpg" alt="Cafe Irish" />
+                  <span class="descuento">-13%</span>
+                  <div class="grupo-botones">
+                    <span>
+                      <i class="fa-regular fa-eye"></i>
+                    </span>
+                    <!-- <span>
+                      <i class="fa-regular fa-heart"></i>
+                    </span>
+                    <span>
+                      <i class="fa-solid fa-code-compare"></i>
+                    </span> -->
+                  </div>
+                </div>
+                <div class="contenedor-card-producto">
+                  <div class="estrellas">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+                  <h3>Cafe Irish</h3>
+                  <span class="agregar-producto">
+                    <i class="fa-solid fa-basket-shopping"></i>
+                  </span>
+                  <p class="precio">$4.60 <span>$5.30</span></p>
+                </div>
+              </div>
+              
+          </div>
+        </div>
+        <div class="content">
+          <h2 class="titulo-seccion-2">Productos más recientes</h2>
+          <div class="contenedor-productos">
+            <!-- Producto 1 -->
+            <div class="card-producto">
+              <div class="contenedor-imagen">
+                <img src="imagenes/productos/producto-4.jpg" alt="Cafe Irish" />
+                <span class="descuento">-13%</span>
+                <div class="grupo-botones">
+                  <span>
+                    <i class="fa-regular fa-eye"></i>
+                  </span>
+                  <!-- <span>
+                    <i class="fa-regular fa-heart"></i>
+                  </span>
+                  <span>
+                    <i class="fa-solid fa-code-compare"></i>
+                  </span> -->
+                </div>
+              </div>
+              <div class="contenedor-card-producto">
+                <div class="estrellas">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <h3>Cafe Irish</h3>
+                <span class="agregar-producto">
+                  <i class="fa-solid fa-basket-shopping"></i>
+                </span>
+                <p class="precio">$4.60 <span>$5.30</span></p>
+              </div>
+            </div>
+             <!-- Producto 2 -->
+             <div class="card-producto">
+              <div class="contenedor-imagen">
+                <img src="imagenes/productos/producto-5.jpg" alt="Cafe Irish" />
+                <span class="descuento">-13%</span>
+                <div class="grupo-botones">
+                  <span>
+                    <i class="fa-regular fa-eye"></i>
+                  </span>
+                  <!-- <span>
+                    <i class="fa-regular fa-heart"></i>
+                  </span>
+                  <span>
+                    <i class="fa-solid fa-code-compare"></i>
+                  </span> -->
+                </div>
+              </div>
+              <div class="contenedor-card-producto">
+                <div class="estrellas">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <h3>Cafe Irish</h3>
+                <span class="agregar-producto">
+                  <i class="fa-solid fa-basket-shopping"></i>
+                </span>
+                <p class="precio">$4.60 <span>$5.30</span></p>
+              </div>
+            </div>
+             <!-- Producto 3 -->
+             <div class="card-producto">
+              <div class="contenedor-imagen">
+                <img src="imagenes/productos/producto-6.jpg" alt="Cafe Irish" />
+                <span class="descuento">-13%</span>
+                <div class="grupo-botones">
+                  <span>
+                    <i class="fa-regular fa-eye"></i>
+                  </span>
+                  <!-- <span>
+                    <i class="fa-regular fa-heart"></i>
+                  </span>
+                  <span>
+                    <i class="fa-solid fa-code-compare"></i>
+                  </span> -->
+                </div>
+              </div>
+              <div class="contenedor-card-producto">
+                <div class="estrellas">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <h3>Cafe Irish</h3>
+                <span class="agregar-producto">
+                  <i class="fa-solid fa-basket-shopping"></i>
+                </span>
+                <p class="precio">$4.60 <span>$5.30</span></p>
+              </div>
+            </div>
+             <!-- Producto 4 -->
+             <div class="card-producto">
+              <div class="contenedor-imagen">
+                <img src="imagenes/productos/producto-1.jpg" alt="Cafe Irish" />
+                <span class="descuento">-13%</span>
+                <div class="grupo-botones">
+                  <span>
+                    <i class="fa-regular fa-eye"></i>
+                  </span>
+                  <!-- <span>
+                    <i class="fa-regular fa-heart"></i>
+                  </span>
+                  <span>
+                    <i class="fa-solid fa-code-compare"></i>
+                  </span> -->
+                </div>
+              </div>
+              <div class="contenedor-card-producto">
+                <div class="estrellas">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <h3>Cafe Irish</h3>
+                <span class="agregar-producto">
+                  <i class="fa-solid fa-basket-shopping"></i>
+                </span>
+                <p class="precio">$4.60 <span>$5.30</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="content">
+          <h2 class="titulo-seccion-2">Productos más vendidos</h2>
+          <div class="contenedor-productos">
+            <!-- Producto 1 -->
+            <div class="card-producto">
+              <div class="contenedor-imagen">
+                <img src="imagenes/productos/producto-3.jpg" alt="Cafe Irish" />
+                <span class="descuento">-13%</span>
+                <div class="grupo-botones">
+                  <span>
+                    <i class="fa-regular fa-eye"></i>
+                  </span>
+                  <!-- <span>
+                    <i class="fa-regular fa-heart"></i>
+                  </span>
+                  <span>
+                    <i class="fa-solid fa-code-compare"></i>
+                  </span> -->
+                </div>
+              </div>
+              <div class="contenedor-card-producto">
+                <div class="estrellas">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <h3>Cafe Irish</h3>
+                <span class="agregar-producto">
+                  <i class="fa-solid fa-basket-shopping"></i>
+                </span>
+                <p class="precio">$4.60 <span>$5.30</span></p>
+              </div>
+            </div>
+             <!-- Producto 2 -->
+             <div class="card-producto">
+              <div class="contenedor-imagen">
+                <img src="imagenes/productos/producto-4.jpg" alt="Cafe Irish" />
+                <span class="descuento">-13%</span>
+                <div class="grupo-botones">
+                  <span>
+                    <i class="fa-regular fa-eye"></i>
+                  </span>
+                  <!-- <span>
+                    <i class="fa-regular fa-heart"></i>
+                  </span>
+                  <span>
+                    <i class="fa-solid fa-code-compare"></i>
+                  </span> -->
+                </div>
+              </div>
+              <div class="contenedor-card-producto">
+                <div class="estrellas">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <h3>Cafe Irish</h3>
+                <span class="agregar-producto">
+                  <i class="fa-solid fa-basket-shopping"></i>
+                </span>
+                <p class="precio">$4.60 <span>$5.30</span></p>
+              </div>
+            </div>
+             <!-- Producto 3 -->
+             <div class="card-producto">
+              <div class="contenedor-imagen">
+                <img src="imagenes/productos/producto-5.jpg" alt="Cafe Irish" />
+                <span class="descuento">-13%</span>
+                <div class="grupo-botones">
+                  <span>
+                    <i class="fa-regular fa-eye"></i>
+                  </span>
+                  <!-- <span>
+                    <i class="fa-regular fa-heart"></i>
+                  </span>
+                  <span>
+                    <i class="fa-solid fa-code-compare"></i>
+                  </span> -->
+                </div>
+              </div>
+              <div class="contenedor-card-producto">
+                <div class="estrellas">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <h3>Cafe Irish</h3>
+                <span class="agregar-producto">
+                  <i class="fa-solid fa-basket-shopping"></i>
+                </span>
+                <p class="precio">$4.60 <span>$5.30</span></p>
+              </div>
+            </div>
+             <!-- Producto 4 -->
+             <div class="card-producto">
+              <div class="contenedor-imagen">
+                <img src="imagenes/productos/producto-6.jpg" alt="Cafe Irish" />
+                <span class="descuento">-13%</span>
+                <div class="grupo-botones">
+                  <span>
+                    <i class="fa-regular fa-eye"></i>
+                  </span>
+                  <!-- <span>
+                    <i class="fa-regular fa-heart"></i>
+                  </span>
+                  <span>
+                    <i class="fa-solid fa-code-compare"></i>
+                  </span> -->
+                </div>
+              </div>
+              <div class="contenedor-card-producto">
+                <div class="estrellas">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <h3>Cafe Irish</h3>
+                <span class="agregar-producto">
+                  <i class="fa-solid fa-basket-shopping"></i>
+                </span>
+                <p class="precio">$4.60 <span>$5.30</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="categorias">
+        <h1 class="titulo-seccion-1">Categorias</h1>
+        <section class="contenedor-categorias">
+          <div class="imagen-galeria">
+            <div class="nombre-categoria">Cafe Arabe</div>
+            <img
+                src="imagenes/categorias/categoria-1.jpg"
+                alt="categoria 1"
+            />
+          </div>
+          <div class="imagen-galeria">
+            <div class="nombre-categoria">Cafe Peruano</div>
+            <img
+              src="imagenes/categorias/categoria-2.jpg"
+              alt="categoria 2"
+           />
+          </div>
+          <div class="contenedor-categorias-img-3">
+            <div class="nombre-categoria">Cafe Colombiano</div>
+            <img
+              src="imagenes/categorias/categoria-3.jpg"
+              alt="categoria 3"
+            />
+          </div>
+          <div class="imagen-galeria">
+            <div class="nombre-categoria">Cafe Indio</div>
+            <img
+              src="imagenes/categorias/categoria-4.jpg"
+              alt="categoria 4"
+            />
+          </div>
+          <div class="imagen-galeria">
+            <div class="nombre-categoria">Cafeteras</div>
+            <img
+              src="imagenes/categorias/categoria-5.jpg"
+              alt="categoria 5"
+            />
+          </div>
+        
+        </section>
+      </section>
+    </main>
+    <footer class="footer">
+			<div class="container contenedor-footer">
+				<div class="menu-footer">
+          <div class="information">
+						<ul>
+							<li>
+                <img src="imagenes/header/LogoCafeLuna.png"/>    
+              </li>
+							
+						</ul>
+            <div class="social-icons">
+              <span class="facebook">
+                <i class="fa-brands fa-facebook-f"></i>
+              </span>
+              <span class="twitter">
+                <i class="fa-brands fa-twitter"></i>
+              </span>
+              <span class="youtube">
+                <i class="fa-brands fa-youtube"></i>
+              </span>
+              <span class="pinterest">
+                <i class="fa-brands fa-pinterest-p"></i>
+              </span>
+              <span class="instagram">
+                <i class="fa-brands fa-instagram"></i>
+              </span>
+            </div>
+					</div>
+					<div class="informacion-contacto">
+						<p class="titulo-footer">Información de Contacto</p>
+						<ul>
+							<li>
+								Dirección: Santo domingo 916 Santiago,Región Metropolitana
+							</li>
+							<li>Teléfono: 123-456-7890</li>
+							<li>Fax: 55555300</li>
+							<li>EmaiL: d_rut_jhoanna@hotmail.com</li>
+						</ul>
+					</div>
+
+					<div class="newsletter">
+						<p class="titulo-footer">Hable con nosotros</p>
+
+						<div class="contenido-footer">
+							
+							<input type="email" placeholder="Nombre">
+              <textarea name="textarea" rows="2" cols="50" placeholder="Escribe tu mensaje"></textarea>
+							<button>Enviar Mensaje</button>
+						</div>
+					</div>
+				</div>
+        
+				<div class="copyright">
+					<p>
+						Desarrollado por Rut Dianderas Villanueva &copy; 2023
+					</p>
+				</div>
+			</div>
+		</footer>
+</body>
+</html>

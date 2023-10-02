@@ -1,0 +1,122 @@
+.body-mantenedor	{
+	display: grid;
+	min-height: 100vh;
+	grid-template-rows: auto 1fr auto;
+}
+.main-content-productos {
+  background-color: var(--background-color);
+  padding: 25px;
+}
+.titulo-producto  {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 25px;
+}
+.titulo-producto h2 {
+  font-size: 2.5rem;
+}
+.btAgregar  {
+    border: none;
+    background-color: #000;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 1rem 3rem;
+    border-radius: 2rem;
+    font-size: 1.3rem;
+    font-family: inherit;
+    cursor: pointer;
+    font-weight: 600;
+    text-decoration: none;
+}
+.btAgregar:hover {
+	background-color: var(--background-color);
+	color: var(--primary-color);
+}
+.contenedor-formulario  {
+	background-color: #fff;
+	padding: 2rem 3rem;
+	border-radius: 0.5rem;
+	cursor: pointer;
+	box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+  max-width: 80rem;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+.contenedor-formulario input {
+	outline: none;
+	background: none;
+	border: none;
+	border-bottom: 2px solid #d2b495;
+	cursor: pointer;
+	padding: 0.5rem 0 1.2rem;
+	color: var(--dark-color);
+	display: block;
+	margin-bottom: 3rem;
+	margin-top: 2rem;
+	width: 100%;
+	font-family: inherit;
+  font-size: 1.3rem;
+}
+.contenedor-formulario button {
+	border: none;
+	background-color: #000;
+	color: #fff;
+	text-transform: uppercase;
+	padding: 1rem 3rem;
+	border-radius: 2rem;
+	font-size: 1.3rem;
+	font-family: inherit;
+	cursor: pointer;
+	font-weight: 600;
+}
+
+.contenedor-formulario button:hover {
+	background-color: var(--background-color);
+	color: var(--primary-color);
+}
+.contenedor-formulario p {
+  margin: 0;
+  padding: 0 ;
+  font-weight: bold;
+  color: #000;
+  font-size: 1.3rem;
+}
+.contenedor-formulario textarea {
+	outline: none;
+	background: none;
+	border: none;
+	border-bottom: 2px solid #d2b495;
+	cursor: pointer;
+	padding: 0.5rem 0 1.2rem;
+	color: var(--dark-color);
+	display: block;
+	margin-bottom: 3rem;
+	margin-top: 2rem;
+	width: 100%;
+	font-family: inherit;
+  font-size: 1.3rem;
+}
+.volver {
+  border: none;
+	background-color: #ffc107;
+  border-color: #ffc107;
+	color: #050505;
+	text-transform: uppercase;
+	padding: 1rem 3rem;
+	border-radius: 2rem;
+	font-size: 1.3rem;
+	font-family: inherit;
+	cursor: pointer;
+	font-weight: 600;
+  text-decoration: none;
+}
+.volver:hover {
+	background-color: var(--background-color);
+	color: var(--primary-color);
+}
+.form-buton
+{
+  display: flex;
+  justify-content: space-between;
+}

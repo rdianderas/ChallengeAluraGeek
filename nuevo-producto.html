@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CAFE LUNA</title>
+  <link rel="stylesheet" href="css/principal.css" />
+  <link rel="stylesheet" href="css/headers/header.css" />
+  <link rel="stylesheet" href="css/footer/footer.css" />
+  <link rel="stylesheet" href="css/productos/productos.css" />
+  <link rel="stylesheet" href="css/productos/MantenedorProductos.css" />
+  <script
+			src="https://kit.fontawesome.com/81581fb069.js"
+			crossorigin="anonymous"
+		></script>
+    <script defer src="js/slider.js"></script>
+    <script defer src="js/pestanhas.js"></script>
+</head>
+<body class="body-mantenedor">
+    <header>
+      <div class="contenedor-header">
+        <div class="contenedor-h">
+          <div class="contenedor-logo">
+            <a href="index.html"> 
+              <img src="imagenes/header/LogoCafeLuna.png"/> 
+            </a>    
+          </div>
+          <div class="buscador">
+            <form class="buscador-form">
+              <input type="search" placeholder="Buscar..." />
+              <button class="btn-buscador">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+            </form>
+          </div>  
+          <div class="containedor-usario">
+						<span class="bienvenido">Bienvenid@</span>
+						<span class="nombreUsuario">Administrador</span>
+          </div> 
+        </div>
+      </div>
+      <div class="container-navbar">
+        <div class="navbar container">
+        </div>
+      </div>
+    </header>
+    
+    <main class="main-content-productos">
+      <h1 class="titulo-seccion-1">Agregar Nuevo Productos</h1>
+      <section class="contenedor-formulario">
+        <form data-form>
+          <div class="form-control">
+            <p>URL de Imagen</p>
+            <input data-url type="text" name="txUrlImagen" id="txUrlImagen" placeholder="Ingrese Url de imagen">
+          </div>
+          <div class="form-control">
+            <p>ALT de Imagen</p>
+            <input data-alt type="text" name="txAltImagen" id="txAltImagen" placeholder="Ingrese ALT de imagen">
+          </div>
+          <div class="form-control">
+            <p>Nombre del producto</p>
+            <input data-nombre type="text" name="txNombreProducto" id="txNombreProducto" placeholder="Ingrese nombre del producto">
+          </div>
+          <div class="form-control">
+            <p>Descripción del producto</p>
+            <textarea data-descripcion name="txDescripcionProducto" id="txDescripcionProducto" rows="10"></textarea>
+          </div>
+          <div class="form-control">
+            <p>Categoria</p>
+            <input data-categoria type="text" name="txCategoria" id="txCategoria" placeholder="Ingrese la Categoria">
+          </div>
+          <div class="form-control">
+            <p>Sub Categoria</p>
+            <input data-destacado type="text" name="txSubCategoria" id="txSubCategoria" placeholder="Ingrese la Categoria">
+          </div>
+          <div class="form-control">
+            <p>Precio del producto</p>
+            <input data-precio type="text" name="txPrecioProducto" id="txPrecioProducto" placeholder="Ingrese precio del producto">
+          </div>
+          <div class="form-control">
+            <p>Precio sin descuento del producto</p>
+            <input data-precio-sin-descuento type="text" name="txPrecioSinDescuento" id="txPrecioSinDescuento" placeholder="Ingrese precio del producto">
+          </div>
+          <div class="form-buton">
+            <a href="mantenedor-productos.html" id="btVolver" name="btVolver" class="volver">Volver</a>
+            <button type="submit" id="btIngresar" name="btIngresar">Agregar Producto</button>
+          </div>
+        </form>
+      </section>
+      
+    </main>
+    <footer class="footer">
+			<div class="container contenedor-footer">
+				<div class="menu-footer">
+          <div class="information">
+						<ul>
+							<li>
+                <img src="imagenes/header/LogoCafeLuna.png"/>    
+              </li>
+							
+						</ul>
+            <div class="social-icons">
+              <span class="facebook">
+                <i class="fa-brands fa-facebook-f"></i>
+              </span>
+              <span class="twitter">
+                <i class="fa-brands fa-twitter"></i>
+              </span>
+              <span class="youtube">
+                <i class="fa-brands fa-youtube"></i>
+              </span>
+              <span class="pinterest">
+                <i class="fa-brands fa-pinterest-p"></i>
+              </span>
+              <span class="instagram">
+                <i class="fa-brands fa-instagram"></i>
+              </span>
+            </div>
+					</div>
+					<div class="informacion-contacto">
+						<p class="titulo-footer">Información de Contacto</p>
+						<ul>
+							<li>
+								Dirección: Santo domingo 916 Santiago,Región Metropolitana
+							</li>
+							<li>Teléfono: 123-456-7890</li>
+							<li>Fax: 55555300</li>
+							<li>EmaiL: d_rut_jhoanna@hotmail.com</li>
+						</ul>
+					</div>
+
+					<div class="newsletter">
+						<p class="titulo-footer">Hable con nosotros</p>
+
+						<div class="contenido-footer">
+							
+							<input type="email" placeholder="Nombre">
+              <textarea name="textarea" rows="2" cols="50" placeholder="Escribe tu mensaje"></textarea>
+							<button>Enviar Mensaje</button>
+						</div>
+					</div>
+				</div>
+        
+				<div class="copyright">
+					<p>
+						Desarrollado por Rut Dianderas Villanueva &copy; 2023
+					</p>
+				</div>
+			</div>
+	</footer>
+  <script type="module" src="controllers/crear-producto-controller.js"></script>
+</body>
+</html>
