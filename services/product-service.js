@@ -1,18 +1,18 @@
 //GET
 const listarProductos=()=>
-fetch('http://localhost:3000/producto')
+fetch('https://alurageek-jtjtrx7sj-rdianderas-projects.vercel.app/producto')
 .then((result)=>result.json())
 .catch((error)=>console.log(error));
 
 const leerProducto = (id) => {
-    return fetch(`http://localhost:3000/producto/${id}`).then((respuesta) => {
+    return fetch(`https://alurageek-jtjtrx7sj-rdianderas-projects.vercel.app/producto/${id}`).then((respuesta) => {
       return respuesta.json();
     });
   };
 
 //POST
 const creaProdutos = (name, imageUrl, precio, precioSinDescuento, alt, categoria, description, destacado) => {
-    return fetch(`http://localhost:3000/producto`, {
+    return fetch(`https://alurageek-jtjtrx7sj-rdianderas-projects.vercel.app/producto`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -36,7 +36,7 @@ const creaProdutos = (name, imageUrl, precio, precioSinDescuento, alt, categoria
   };
   // PUT/PATCH
 const modificarProducto = async (id, name, imageUrl, precio, precioSinDescuento, alt, categoria, description, destacado) => {
-    return fetch(`http://localhost:3000/producto/${id}`, {
+    return fetch(`https://alurageek-jtjtrx7sj-rdianderas-projects.vercel.app/producto/${id}`, {
       method: "PATCH",
       headers: {
         "Content-Type": "application/json",
@@ -60,7 +60,7 @@ const modificarProducto = async (id, name, imageUrl, precio, precioSinDescuento,
   
   // DELETE
   const eliminarProducto = async (id) => {
-    return await fetch(`http://localhost:3000/producto/${id}`, {
+    return await fetch(`https://alurageek-jtjtrx7sj-rdianderas-projects.vercel.app/producto/${id}`, {
       method: "DELETE",
       headers: {
         "Content-Type": "application/json",
